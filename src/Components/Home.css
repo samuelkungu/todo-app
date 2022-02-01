@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  height: 85px;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+.one{
+  max-width: 100%;
+  flex: 1;
+  height: 200px;
+  flex-direction: row;
+}
+.two{
+  max-width: 100%;
+  flex: 1;
+  height: 200px;
+  flex-direction: row;
+}
+.three{
+  max-width: 100%;
+  flex: 1;
+  height: 200px;
+  flex-direction: column;
+}
+
+.task{
+  display: flex;
+  background: #f2f2f2;
+  max-width: 400px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  height: 10px;
+}
+.home h1{
+font-size: 30px;
+font-weight: 600;
+width: 30%;
+}
+
+.inputfield{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+.inputfield input{
+    width: 50%;
+    height: 100%;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+  }
+  .inputfield input:focus{
+    border-color: #8E49E8;
+  }
+  .inputfield button{
+    width: 50px;
+    height: 100%;
+    border: none;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 21px;
+    background: #8E49E8;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+.home .footer{
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    height: 10px;
+    
+}
