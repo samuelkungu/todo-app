@@ -12,6 +12,7 @@ return (
         </div>
     </div>
     <div className='container'>
+    
         <div className='one'>
                 <li className='task'>Complete React project<span><i className='fas fa-trash'></i></span></li>
                 <li className='task'>Submit previous assignments<span><i className='fas fa-trash'></i></span></li>
@@ -27,13 +28,8 @@ return (
                 <li className='task'>Don't forget to rest<span><i className='fas fa-trash'></i></span></li>
                 <li className='task'>And sleep!<span><i className='fas fa-trash'></i></span></li>
         </div>
+        
     </div>
-{/*<div className='footer'>
-        <span>You have 2 pending tasks</span>
-        <button>Clear all</button>
-        </div>
-*/}
-
 </div>
 );
 }
