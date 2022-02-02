@@ -1,12 +1,15 @@
 import './App.css';
-import Home from './Components/Home/Home';
-import Taskslist from './Components/Taskslist/Taskslist';
+import './Components/Home.css';
+import ListTasks from './Components/ListTasks';
+import NavBar from './Components/NavBar';
 
 
 function App() {
   return (
     <div className="App">
-     <Taskslist />
+     <NavBar />
+    
+     <ListTasks />
       
     </div>
   );

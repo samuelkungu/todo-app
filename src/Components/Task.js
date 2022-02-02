@@ -2,11 +2,11 @@ import React from 'react';
 
 function Task(props) {
     return (
-        <div>
+        <div className='task'>
               { props.tasks.map((task,index) => {
                     return (
                         <li key={task.id}>
-                            {task.name}
+                            {task.title}
                             <br></br>
                             {task.description}
                             <br></br>

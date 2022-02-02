@@ -4,61 +4,58 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.header{
+
+.navbar {
+  background-color: #8E49E8;
+  border: 3px solid #ccc;
+  height: 90%;
+  outline: none;
+  border-radius: 25px;
+}
+
+.navbar-header{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80%;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+
+}
+
+.navbar h1{
+width: 30%;
+border-radius: 10px;
+padding: 20px;
+}
+.tasklist{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
-  margin: 20px;
-  height: 85px;
+  margin: 20px auto;
   padding: 25px;
-  border-radius: 5px;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  
+  background-color: aqua;
 }
 .task{
-  display: flex;
-  background: #f2f2f2;
+  background: #b60f0f;
   max-width: 400px;
-  width: 100%;
-  margin: 30px auto;
-  padding: 25px;
-  border-radius: 5px;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-  height: 200px;
-
+  
 }
 .container{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   height: 800px;
   align-content: space-between;
   padding: 25px;
   border-radius: 5px;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-}
-.one{
-  max-width: 100%;
-  flex: 1;
-  height: 200px;
-  flex-direction: row;
-}
-.two{
-  max-width: 100%;
-  flex: 1;
-  height: 200px;
-  flex-direction: row;
-}
-.three{
-  max-width: 100%;
-  flex: 1;
-  height: 200px;
-  flex-direction: column;
-}
-
-.home h1{
-font-size: 30px;
-font-weight: 600;
-width: 30%;
 }
 
 .inputfield{
@@ -96,9 +93,3 @@ width: 30%;
     transition: all 0.3s ease;
   }
 
-.home .footer{
-    border-radius: 5px;
-    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-    height: 10px;
-    
-}
