@@ -1,21 +1,27 @@
-import React from 'react';
+const Task = (props) => {
+    const tasks = props.tasks;
+    const title = props.title;
 
-function Task(props) {
-    return (
-        <div className='task'>
-              { props.tasks.map((task,index) => {
-                    return (
-                        <li key={task.id}>
-                            {task.title}
-                            <br></br>
-                            {task.description}
-                            <br></br>
-                            {task.date}
-                        </li>
-                    ) 
-                })}
+    console.log(tasks);
+
+    return (  
+        <div className='container'>
+            <div className='taskslist'>
+               <h2>{title}</h2>
+            {tasks.map((task) => (
+                <div className='task' key={task.id}>
+                    <h2>{task.title}</h2>
+                    <p>I will...{task.description}</p>
+                    <p>Due date {task.date}</p>
+
+                </div>
+            ))}             
+                   
+
+            </div>
         </div>
-      );
+       
+         );
 }
-
+ 
 export default Task;
