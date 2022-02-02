@@ -12,7 +12,7 @@ function NavBar() {
 
                     <div className='links'>
                         <a href='/'>Home</a>
-                        <a href='/create'>Create New task</a>
+                        <a href='/allTasks'>All tasks</a>
                     </div>
         </div>
         </div>    

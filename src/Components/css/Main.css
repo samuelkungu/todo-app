@@ -32,9 +32,16 @@ border-radius: 10px;
 padding: 20px;
 }
 .links{
-  width: 30%;
-  border-radius: 10px;
-  padding: 20px;
+  width: 50%;
+  height: 100%;
+  outline: none;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 3px;
+  font-size: 17px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
 }
 
 .taskslist{
@@ -42,24 +49,25 @@ padding: 20px;
   justify-content: center;
   flex-direction: column;
   align-content: center;
-  max-width: 500px;
+  max-width: 900px;
   margin: 1px auto;
   padding: 50px; 
-  background-color: rgb(189, 25, 25)
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 
 .task{
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  max-width: 900px;
   padding: 10px 16px;
   margin: 20px 0;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-bottom: 1px #8E49E8; 
-  background-color: #8E49E8;
-  border: 1px solid #8E49E8;
+  border-bottom: 1px #ffffff; 
+  background-color: #ffffff;
+  
 }
 
 .task:hover{
@@ -69,8 +77,12 @@ padding: 20px;
    font-size: 20px;
    margin: 10px;
  }
+ .task p{
+  font-size: 20px;
+  margin: 10px;
+}
 .container{
-background-color: aqua;
+background-color: rgb(255, 255, 255);
   height: 100%;
   align-content: space-between;
   padding: 25px;
