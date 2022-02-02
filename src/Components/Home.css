@@ -31,6 +31,12 @@ width: 30%;
 border-radius: 10px;
 padding: 20px;
 }
+.links{
+  width: 30%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 .taskslist{
   display: flex;
   justify-content: center;
