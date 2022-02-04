@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function NavBar() {
     return ( 
@@ -12,13 +14,13 @@ function NavBar() {
 
                     <div className='links'>
                         <p>
-                        <a href='/'>Home</a>
+                        <Link to='/currentTasks'>Activities</Link>
                         </p>
                         <p>
-                        <a href='/allTasks'>All tasks</a>
+                        <Link to='/allTasks'>All tasks</Link>
                         </p>
                         <p>
-                        <a href='/completedTasks'>Completed tasks</a>
+                        <Link to='/completedTasks'>Completed tasks</Link>
                         </p>
                     </div>
         </div>

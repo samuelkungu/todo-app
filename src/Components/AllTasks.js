@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Task from './Task';
+import All from './All';
 
-function ListTasks() {
+function AllTasks() {
 
      const [tasks, setTasks] = useState ( [
           { title: "Project",id: 1, description: "Complete React project", date: "05/02/2022" },
@@ -11,8 +11,8 @@ function ListTasks() {
       ]);
      
     return (
-        <Task tasks={tasks} title="All Tasks"/>
+        <All tasks={tasks} title="All Tasks"/>
      );
 }
 
-export default ListTasks;
+export default AllTasks;
